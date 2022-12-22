@@ -1,1 +1,3 @@
-export declare function now(): Date;
+declare module "now" {
+  export declare function now(): Date;
+}

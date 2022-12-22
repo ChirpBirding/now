@@ -1,3 +1,3 @@
-export const now = () => {
+module.exports.now = () => {
   return new Date();
 };
